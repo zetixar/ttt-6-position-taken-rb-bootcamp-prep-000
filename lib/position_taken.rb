@@ -6,5 +6,3 @@ def position_taken? (board, index)
     return true
   end
 end
-board = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
-position_taken?(board, 4)
