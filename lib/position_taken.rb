@@ -3,7 +3,7 @@ require binding.pry
 
 def position_taken? (board, index)
   puts board[index]
-  binding.pry
+  pry
   if board[index] != "X" and board[index] != "O"
     return false
   elsif board[index] == "X" or board[index] == "O"
