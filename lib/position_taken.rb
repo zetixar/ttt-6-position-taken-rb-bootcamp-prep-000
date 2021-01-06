@@ -1,9 +1,9 @@
 # code your #position_taken? method here!
-def position_taken? board, index
+def position_taken? (board, index)
   if board[index] == " "
-    puts "false"
+    puts false
   elsif board[index] =! " "
-    puts "true"
+    return true
   end
 end
 board = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
